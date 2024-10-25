@@ -1,0 +1,39 @@
+.add-product-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+
+  box-shadow: 0 0 10px 2.5px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  height: 6rem;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.navigation {
+  display: flex;
+  gap: 1rem;
+}
+::ng-deep .edit-button {
+  background-color: pink !important;
+}
+
+
+
