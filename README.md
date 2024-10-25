@@ -20,6 +20,30 @@ This project is a simple storefront built with Angular, showcasing various Angul
 - **Routing:** Implements Angular routing to navigate between different sections of the application.
 - **CRUD Operations:** Users can perform Create, Read, Update, and Delete operations on products.
 
+  ## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+- Angular CLI: `npm install -g @angular/cli`
+- [Prime NG](https://primeng.org/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/thecodedeck/angular-cc-1-client.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+
 ## Usage
 
 1. Run the development server:
